@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="angular-route.js"></script>
+  <link rel="stylesheet" href="styles.css"> 
+  <script type="text/javascript" src="app.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body ng-app="myApp">
+    <div class="container">
+        <div class="logo">
+            <a href="#!/about"><img src="images/logo.png" class="hello"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#!/about">About</a></li>
+                <li><a href="#!/projects">Projects</a></li>
+                <li ><a href="https://drive.google.com/file/d/1dyCXABL2PXY1hDluE2Ge7No7RWvTAksi/view?usp=sharing">Resume</a></li>
+               
+            </ul>
+        </nav>
+    </div>
+    <div ng-view></div>
+        
+    </body>
+    <footer>
+       
+          
+    </footer>
+      
+</html>
